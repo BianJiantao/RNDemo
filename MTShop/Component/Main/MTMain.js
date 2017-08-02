@@ -1,5 +1,7 @@
 /**
  * Created by BJT on 17/8/2.
+ *
+ * Tabbar 主框架
  */
 
 import React, { Component } from 'react';
@@ -9,7 +11,7 @@ import {
     Text,
     View,
     Image,
-    Platform,   // 判断当前运行的系统
+    Platform,   // 用于判断当前运行的系统  ios,Android
 } from 'react-native';
 
 import {
@@ -61,7 +63,7 @@ var Main = React.createClass({
                 selectedTitleStyle={styles.selectedTitleStyle}
                 badgeText = {badgeText}
             >
-                <Navigator
+                <Navigator   // 包装导航跳转功能
                     initialRoute={{name:componentName,component:component}}
                     configureScene={()=>{
                              return Navigator.SceneConfigs.PushFromRight;
@@ -80,13 +82,13 @@ var Main = React.createClass({
 
 const styles = StyleSheet.create({
 
-        iconStyle:{
+        iconStyle:{  // tabbar 的 icon 大小
             width: 30 ,
             height: 30
         },
 
         selectedTitleStyle:{
-            color:'orange'
+            color:'orange' // tabbatItem 的 title 颜色
         }
 }
 
