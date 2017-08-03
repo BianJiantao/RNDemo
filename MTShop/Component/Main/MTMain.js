@@ -83,8 +83,8 @@ var Main = React.createClass({
 const styles = StyleSheet.create({
 
         iconStyle:{  // tabbar 的 icon 大小
-            width: 30 ,
-            height: 30
+            width: Platform.OS === 'ios' ? 30 : 25,
+            height:Platform.OS === 'ios' ? 30 : 25
         },
 
         selectedTitleStyle:{
