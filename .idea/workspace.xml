@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ac1271f-ddb4-41c2-8aa9-c217a0e6b1e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTBottomCommonCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTGuessYouLike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTMiddleBottomView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTMiddleCommonView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTMiddleView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTShopCenter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTShopCenterDetail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTTopListView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTTopView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/HomeGuessYouLike.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/HomeHotData.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/HomeTopMiddle.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/HomeTopMiddleLeft.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/MT_Home_D4.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/MT_Home_D5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/MT_Home_D6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/ShopCenterShops.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MTShop/LocalData/TopMenu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTShop/Component/Home/MTHome.js" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTHome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTShop/Component/Home/MTNavTest.js" afterPath="$PROJECT_DIR$/MTShop/Component/Home/MTNavTest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTShop/Component/Mine/MTMineCell.js" afterPath="$PROJECT_DIR$/MTShop/Component/Mine/MTMineCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTShop/Component/More/MTCommonCell.js" afterPath="$PROJECT_DIR$/MTShop/Component/More/MTCommonCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTShop/Component/Shop/MTShop.js" afterPath="$PROJECT_DIR$/MTShop/Component/Shop/MTShop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTShop/ios/MTShop/Info.plist" afterPath="$PROJECT_DIR$/MTShop/ios/MTShop/Info.plist" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RNDemo.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MTShop/Component/Mine/MTMine.js" afterPath="$PROJECT_DIR$/MTShop/Component/Mine/MTMine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="RNDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,12 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MTMineCell.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MTMineCell.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MTShop/Component/Mine/MTMineCell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="-285">
               <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MTMine.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MTShop/Component/Mine/MTMine.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+              <folding>
+                <element signature="e#38#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +93,6 @@
         <option value="$PROJECT_DIR$/MTShop/Component/Mine/MTMineMiddleView.js" />
         <option value="$PROJECT_DIR$/MTShop/Component/Main/MTMain.js" />
         <option value="$PROJECT_DIR$/MTShop/Component/Mine/MTMineHeaderView.js" />
-        <option value="$PROJECT_DIR$/MTShop/Component/Mine/MTMine.js" />
         <option value="$PROJECT_DIR$/MTShop/Component/Mine/MTMiddleData.json" />
         <option value="$PROJECT_DIR$/MTShop/Component/Home/MTMiddleBottom.js" />
         <option value="$PROJECT_DIR$/MTShop/Component/Home/MTMiddleView.js" />
@@ -121,6 +110,7 @@
         <option value="$PROJECT_DIR$/MTShop/Component/Shop/MTShop.js" />
         <option value="$PROJECT_DIR$/MTShop/Component/More/MTCommonCell.js" />
         <option value="$PROJECT_DIR$/MTShop/Component/Mine/MTMineCell.js" />
+        <option value="$PROJECT_DIR$/MTShop/Component/Mine/MTMine.js" />
       </list>
     </option>
   </component>
@@ -373,16 +363,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501647873751</updated>
-      <workItem from="1501647875879" duration="32026000" />
+      <workItem from="1501647875879" duration="32381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32026000" />
+    <option name="totallyTimeSpent" value="32381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="26" width="1210" height="653" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -546,16 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MTShop/Component/Mine/MTMine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MTShop/Component/Home/MTMiddleView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-855">
@@ -571,16 +551,6 @@
         <state relative-caret-position="361">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MTShop/Component/Mine/MTMiddleData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,11 +692,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MTShop/Component/Mine/MTMiddleData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MTShop/Component/Mine/MTMineCell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="-285">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MTShop/Component/Mine/MTMine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <element signature="e#38#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
