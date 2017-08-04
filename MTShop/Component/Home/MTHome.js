@@ -13,7 +13,8 @@ import {
     TouchableOpacity,
     TextInput,
     Image,
-    Platform
+    Platform,
+    ScrollView
 } from 'react-native';
 
 var Dimensions = require('Dimensions');
@@ -21,7 +22,12 @@ var {width, height} = Dimensions.get('window');
 
 /**----导入外部的组件类---**/
 var NavTest = require('./MTNavTest');
-
+var TopView = require('./MTTopView');
+var MiddleView = require('./MTMiddleView');
+var MiddleBottomView = require('./MTMiddleBottomView');
+var ShopCenter = require('./MTShopCenter');
+var ShopCenterDetail = require('./MTShopCenterDetail');
+var GuessYouLike = require('./MTGuessYouLike');
 
 var Home = React.createClass({
 
@@ -31,11 +37,27 @@ var Home = React.createClass({
                 {/*导航条*/}
                 {this.renderNavBar()}
 
-                <TouchableOpacity onPress={()=>{this.pushToNext()}}>
-                    <Text style={styles.welcome}>
-                        首页
-                    </Text>
-                </TouchableOpacity>
+                {/*首页的主要内容*/}
+                <ScrollView>
+                    {/*头部的View*/}
+                    <TopView />
+                    {/*中间的内容*/}
+                    <MiddleView />
+                    {/*中间下半部分的内容*/}
+                    <MiddleBottomView
+                        // 点击的回调
+                        popToHomeView={(data)=>{this.pushToNext(data)}}
+                    />
+                    {/*购物中心*/}
+                    <ShopCenter
+                        // 点击的回调
+                        popToHomeView = {(url) => this.pushToShopCenterDetail(url)}
+                    />
+
+                    {/*猜你喜欢*/}
+                    <GuessYouLike />
+
+                </ScrollView>
             </View>
         );
     },
@@ -67,12 +89,30 @@ var Home = React.createClass({
     },
 
 
+    // 跳转到购物中心详情页
+    pushToShopCenterDetail(url){
+        this.props.navigator.push(
+            {
+                component: ShopCenterDetail, // 要跳转的版块
+                passProps: {'url': this.dealWithUrl(url)}
+                // passProps: {'url': 'http://www.meituan.com'}
+            }
+
+        );
+    },
+
+    // 处理URL
+    dealWithUrl(url){
+        return url.replace('imeituan://www.meituan.com/web/?url=', '');
+    },
+
     // 跳转到下一界面
-    pushToNext(){
+    pushToNext(data){
+        // alert(data);
         this.props.navigator.push(
             {
                 component: NavTest, // 要跳转的版块
-                title:'测试页'
+                passProps:{'title':'测试页'}
             }
         );
     }

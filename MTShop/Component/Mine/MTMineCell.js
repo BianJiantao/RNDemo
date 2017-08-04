@@ -26,7 +26,7 @@ var MyCell = React.createClass({
 
     render() {
         return (
-            <TouchableOpacity activeOpacity={0.5}>
+            <TouchableOpacity onPress={()=>{alert(this.props.leftTitle)}} activeOpacity={0.5}>
                 <View style={styles.container}>
                     {/*--左边--*/}
                     <View style={styles.leftViewStyle}>

@@ -35,7 +35,7 @@ var CommonCell = React.createClass({
 
     render() {
         return (
-            <TouchableOpacity onPress={()=>{alert('点了')}}>
+            <TouchableOpacity onPress={()=>{alert(this.props.title)}}>
                 <View style={styles.container}>
                     {/*左边*/}
                     <Text style={{marginLeft:8}}>{this.props.title}</Text>
